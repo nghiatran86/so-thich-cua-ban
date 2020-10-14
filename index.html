@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sở thích của bạn</title>
+
+</head>
+<style>
+    td {
+        width: 100px;
+        height: 50px;
+    }
+    h1 {
+        text-align: center;
+        background: coral;
+    }
+    .btn {
+        text-align: right;
+    }
+    #btn1{
+        text-align: center;
+    }
+</style>
+<body>
+
+<table border="10px" style="color: darkorange" >
+    <tr>
+        <td  style="color: aliceblue" colspan="4"><h1 >Sở Thích Của Bạn</h1></td>
+    </tr>
+    <tr>
+        <td style="text-align: center;color: blue" id="td1">Họ và tên</td>
+        <td colspan="3"><input type="text" name="fullname" ></td>
+
+    </tr>
+    <tr>
+        <td style="color: blue;text-align: center">Email</td>
+        <td colspan="3"><input type="text" name="Email"></td>
+
+    </tr>
+    <tr>
+        <td style="text-align: center;color: blue">Sở thích</td>
+        <td><input type="checkbox" name="hobby" value="Thể thao">Thể Thao
+            <br><input type="checkbox" name="hobby" value="Lướt Web">Lướt Web
+            <br><input type="checkbox" name="hobby" value="Du dịch">Du Lịch
+        </td>
+        <td style="position: relative"><input type="checkbox" name="hobby" value="Thể thao">Âm nhạc
+            <br><input type="checkbox" name="hobby" value="Lướt Web">Chơi game</td>
+        <td><input type="checkbox" name="hobby" value="Thể thao">Thể Thao
+            <br><input type="checkbox" name="hobby" value="Lướt Web">Lướt Web</td>
+    </tr>
+    <tr>
+        <td class="btn" colspan="2"><input  type="reset" value="Nhập lại"></td>
+        <td id="btn1"  colspan="2"><button type="button" style="width: 100px;">Gửi đi</button></td>
+    </tr>
+</table>
+
+</body>
+</html>
